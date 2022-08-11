@@ -315,11 +315,19 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
+
               <img
+                class="story__img"
+                srcset="/img/nat-8--small.jpg 300w, img/nat-8.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                alt="Person on a tour"
+                src="img/nat-8.jpg"
+              />
+            <!-- <img
                 class="story__img"
                 src="img/nat-8.jpg"
                 alt="Person on a tour"
-              />
+              /> --> 
               <figcaption class="story__caption">Mary Smith</figcaption>
             </figure>
             <div class="story__text">
@@ -339,11 +347,19 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
+
               <img
+              class="story__img"
+              srcset="/img/nat-9--small.jpg 300w, img/nat-9.jpg 1000w"
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              alt="Person on a tour"
+              src="img/nat-9.jpg"
+            />
+            <!--  <img
                 class="story__img"
                 src="img/nat-9.jpg"
                 alt="Person on a tour"
-              />
+              /> -->
               <figcaption class="story__caption">Jack Wilson</figcaption>
             </figure>
             <div class="story__text">
@@ -484,8 +500,23 @@
     <div class="popup" id="popup">
       <div class="popup__content">
         <div class="popup__left">
-          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
-          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+          <img
+              class="popup__img"
+              srcset="/img/nat-8--small.jpg 300w, img/nat-8.jpg 1000w"
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              alt="Tour photo"
+              src="img/nat-8.jpg"
+            />
+        <!--  <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" /> -->
+
+          <img
+              class="popup__img"
+              srcset="/img/nat-9--small.jpg 300w, img/nat-9.jpg 1000w"
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+              alt="Tour photo"
+              src="img/nat-9.jpg"
+            />
+         <!-- <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" /> -->
         </div>
         <div class="popup__right">
           <a href="#section-tours" class="popup__close">&times;</a>
