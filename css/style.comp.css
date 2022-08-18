@@ -69,6 +69,10 @@ body {
     body {
       padding: 0; } }
 
+::selection {
+  background-color: #55c57a;
+  color: #fff; }
+
 body {
   font-family: "Lato", "Arial", sans-serif;
   font-weight: 400;
@@ -346,7 +350,7 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 75em), only screen and (hover: none) {
     .card {
       height: auto;
       border-radius: 3px;
